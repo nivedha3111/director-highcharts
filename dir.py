@@ -20,7 +20,7 @@ def startpy():
         "Greetings" : "Tactlabs welcomes you"
     }
 
-    return render_template("index1.html")
+    return render_template("index3.html")
 
 '''
     http://0.0.0.0:3000/data
@@ -43,7 +43,7 @@ def read_json():
     result_dict = {
         'months'        : movie_list,
         'local_data'    : data,
-        'city'          : 'Chennai',
+        'city'          : 'karthik subbaraj movies',
         'title'         : 'Monthly Average Temperature',
         'subtitle'      : 'Source: WorldClimate.com',
         'temp_data'     : rate_list 

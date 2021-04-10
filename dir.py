@@ -20,7 +20,7 @@ def startpy():
         "Greetings" : "Tactlabs welcomes you"
     }
 
-    return render_template("index3.html")
+    return render_template("index.html")
 
 '''
     http://0.0.0.0:3000/data
